@@ -1,0 +1,33 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import Price from '../components/blocks/pricing/PricingColumns.astro'
+import SocialProof from '../components/blocks/socialproof/Basic.astro'
+import FAQ from '../components/blocks/FAQ/Basic.astro'
+import Testimonial from '../components/blocks/testimonials/BasicDark.astro'
+import Feature from '../components/blocks/features/FeatureList.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'Foxi | Pricing made simple',
+	description:
+		'Discover the perfect SaaS pricing plan for your business. From startups to enterprises, our scalable solutions offer unparalleled features and 24/7 support.'
+}
+// - Page Header
+const header = {
+	title: 'เลือกรูปแบบบริการ <strong>ห้องพัก</strong> ที่เหมาะกับคุณ',
+	text: 'เลือกบริการห้องพักที่เหมาะสมสำหรับคุณ'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<Price />
+	<Feature />
+	<FAQ classes="bg-slate-50 dark:bg-neutral-900/40" />
+</Layout>

@@ -1,0 +1,26 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/HomeCTA.astro'
+import Features from '../components/blocks/features/FeatureCards.astro'
+import HighlightBlocks from '../components/blocks/highlights/HightlightRows.astro'
+import ContactCards from '../components/blocks/contact/ContactCards.astro'
+import CTA from '../components/blocks/CTA/BasicLight.astro'
+
+// - SEO
+const SEO = {
+	title: 'Yunnan Home Stay',
+	description:
+		'Foxi is a powerful productivity toolkit designed to enhance your workflow and boost your productivity. With features like analytics, security, and integrations, Foxi is the perfect solution for your business.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero />
+	<Features />
+	<ContactCards classes="dark:bg-neutral-950/80" />
+	<HighlightBlocks />
+	<CTA />
+</Layout>
