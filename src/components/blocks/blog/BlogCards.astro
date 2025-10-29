@@ -1,0 +1,101 @@
+---
+// Blog Cards grid Section
+// ------------
+// Description: A grid of cards with blog information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/BlogCard.astro'
+
+// Content
+// - Cards
+// import blog01 from '../../../assets/cards/blog-02.svg'
+// import blog02 from '../../../assets/cards/blog-02.svg'
+// import blog03 from '../../../assets/cards/blog-03.svg'
+// import blog04 from '../../../assets/cards/blog-04.svg'
+// import blog05 from '../../../assets/cards/blog-05.svg'
+
+import blog01 from '../../../assets/home_stay_01.png'
+import blog02 from '../../../assets/home_stay_01.png'
+import blog03 from '../../../assets/home_stay_01.png'
+import blog04 from '../../../assets/home_stay_01.png'
+import blog05 from '../../../assets/home_stay_01.png'
+---
+
+<Section id="blogs">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">สถานที่ <strong>ท่องเที่ยว</strong> ใกล้เคียง</h2>
+			<p class="pb-0 text-lg">
+				ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน 
+				ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน ห้องพักตั้งอยู่กลางชุมชนจีนยูนนาน 
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="โรงเตี๋ยวถ้ำง๊อบ"
+				subtitle="โรงเตี๋ยวถ้ำง๊อบ โรงเตี๋ยวถ้ำง๊อบ โรงเตี๋ยวถ้ำง๊อบ โรงเตี๋ยวถ้ำง๊อบ โรงเตี๋ยวถ้ำง๊อบ โรงเตี๋ยวถ้ำง๊อบ"
+				image={blog01}
+				link="/blog"
+			/>
+			<Card
+				title="สถานีเกษตรหลวงอ่างขาง"
+				subtitle="สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง"
+				image={blog03}
+				link="/blog"
+			/>
+			<Card
+				title="สถานีเกษตรหลวงอ่างขาง"
+				subtitle="สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง สถานีเกษตรหลวงอ่างขาง"
+				image={blog03}
+				link="/blog"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="จุดชมวิวซุยถัง"
+				subtitle="จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง จุดชมวิวซุยถัง"
+				image={blog02}
+				link="/blog"
+			/>
+			<Card
+				title="ชายแดนไทยพม่า"
+				subtitle="ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า"
+				image={blog03}
+				link="/blog"
+			/>
+			<Card
+				title="ชายแดนไทยพม่า"
+				subtitle="ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า ชายแดนไทยพม่า"
+				image={blog03}
+				link="/blog"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="จุดชมวิวม่อนสน"
+				subtitle="จุดชมวิวม่อนสน จุดชมวิวม่อนสน จุดชมวิวม่อนสน จุดชมวิวม่อนสน จุดชมวิวม่อนสน จุดชมวิวม่อนสน"
+				image={blog04}
+				link="/blog"
+			/>
+			<Card
+				title="ไร่ชา 2000"
+				subtitle="ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 "
+				image={blog05}
+				link="/blog"
+			/>
+			<Card
+				title="ไร่ชา 2000"
+				subtitle="ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 ไร่ชา 2000 "
+				image={blog05}
+				link="/blog"
+			/>
+		</Col>
+	</Row>
+</Section>
