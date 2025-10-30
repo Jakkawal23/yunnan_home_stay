@@ -1,87 +1,92 @@
 [
-	
   {
-    "title": "High-Speed Wi-Fi",
+    "title": "ห้องน้ำส่วนตัว",
     "icon": "chart-pie",
-    "description": "อินเทอร์เน็ตไร้สายความเร็วสูงสำหรับใช้งานได้ไม่จำกัดทั่วทั้งโรงแรม",
-    "category": "Technology"
+    "description": "ทุกห้องพักมีห้องน้ำส่วนตัว เพื่อความเป็นส่วนตัวและสะดวกสบาย",
+    "category": "Comfort"
   },
   {
-    "title": "Smart TV & Streaming Access",
+    "title": "น้ำอุ่น",
     "icon": "chart-pie",
-    "description": "โทรทัศน์ Smart TV พร้อมช่องรายการเคเบิล และการเชื่อมต่อสำหรับ Netflix/YouTube",
-    "category": "Technology"
+    "description": "อาบน้ำอุ่นได้ตลอดทั้งวัน เหมาะกับอากาศเย็นของดอยอ่างขาง",
+    "category": "Comfort"
   },
   {
-    "title": "In-Room Tablet/Digital Concierge",
+    "title": "Wi-Fi ฟรี",
     "icon": "chart-pie",
-    "description": "แท็บเล็ตในห้องพักสำหรับสั่งรูมเซอร์วิส, จองสปา, หรือควบคุมไฟ/เครื่องปรับอากาศ",
-    "category": "Technology"
+    "description": "เชื่อมต่ออินเทอร์เน็ตความเร็วสูงฟรีทั่วบริเวณโฮมสเตย์",
+    "category": "Comfort"
   },
   {
-    "title": "24-Hour Room Service",
+    "title": "ทีวีจอแบน",
     "icon": "chart-pie",
-    "description": "บริการอาหารและเครื่องดื่มส่งถึงห้องพักตลอด 24 ชั่วโมง",
-    "category": "Food_Beverage"
+    "description": "ทีวีพร้อมช่องเคเบิลและบริการสตรีมมิ่ง เช่น YouTube และ Netflix",
+    "category": "Comfort"
   },
   {
-    "title": "Complimentary Minibar",
+    "title": "บริการทำความสะอาดรายวัน",
     "icon": "chart-pie",
-    "description": "มินิบาร์พร้อมเครื่องดื่มและของว่างฟรี (เติมให้ใหม่ทุกวัน)",
-    "category": "Food_Beverage"
+    "description": "ดูแลความสะอาดห้องพักทุกวัน เพื่อความสบายใจของผู้เข้าพัก",
+    "category": "Comfort"
   },
   {
-    "title": "Espresso Machine & Tea Selection",
+    "title": "เสริมเตียงได้",
     "icon": "chart-pie",
-    "description": "เครื่องชงกาแฟเอสเพรสโซ่ และชุดชาพรีเมียมในห้องพัก",
-    "category": "Food_Beverage"
+    "description": "รองรับการพักแบบครอบครัว ด้วยบริการเตียงเสริมในบางห้อง",
+    "category": "Comfort"
   },
   {
-    "title": "Luxury Bath Amenities (Signature Scent)",
+    "title": "อาหารเช้า",
     "icon": "chart-pie",
-    "description": "ชุดผลิตภัณฑ์อาบน้ำระดับพรีเมียม กลิ่นเฉพาะของโรงแรม (แชมพู, ครีมนวด, โลชั่น)",
-    "category": "Personal_Care"
+    "description": "บริการอาหารเช้า สดใหม่ทุกวัน",
+    "category": "Food"
   },
   {
-    "title": "Plush Bathrobe & Slippers",
+    "title": "กาแฟ & ชาร้อน",
     "icon": "chart-pie",
-    "description": "เสื้อคลุมอาบน้ำขนหนูเนื้อนุ่ม และรองเท้าใส่ในห้องพัก",
-    "category": "Personal_Care"
+    "description": "บริการกาแฟดริปและชาร้อนฟรีสำหรับผู้เข้าพักทุกเช้า",
+    "category": "Food"
   },
   {
-    "title": "Pillow Menu",
+    "title": "หมูกระทะ & จิ้มจุ่ม",
     "icon": "chart-pie",
-    "description": "บริการเลือกประเภทหมอนตามความชอบส่วนตัว (เช่น หมอนขนเป็ด, หมอนเมมโมรี่โฟม, หมอนใยสังเคราะห์)",
-    "category": "Personal_Care"
+    "description": "มีบริการหมูกระทะและอาหารเย็นจากร้านค้าชุมชน",
+    "category": "Food"
   },
   {
-    "title": "Daily Turndown Service",
+    "title": "กล้องวงจรปิด 24 ชั่วโมง",
     "icon": "chart-pie",
-    "description": "บริการเตรียมเตียงสำหรับนอนในช่วงเย็น พร้อมจัดเตรียมน้ำดื่มและของว่างเบาๆ",
-    "category": "Convenience"
-  },
-  {
-    "title": "Laundry & Ironing Service (Same-Day)",
-    "icon": "chart-pie",
-    "description": "บริการซักรีดและรีดผ้าที่สามารถดำเนินการเสร็จภายในวันเดียว (อาจมีค่าใช้จ่ายเพิ่มเติม)",
-    "category": "Convenience"
-  },
-  {
-    "title": "Blackout Curtains",
-    "icon": "chart-pie",
-    "description": "ผ้าม่านทึบแสงคุณภาพสูง ช่วยให้ห้องมืดสนิทสำหรับการพักผ่อนอย่างเต็มที่",
-    "category": "Convenience"
-  },
-  {
-    "title": "In-Room Safety Deposit Box (Laptop Size)",
-    "icon": "chart-pie",
-    "description": "ตู้เซฟนิรภัยในห้องพัก ขนาดใหญ่พอสำหรับใส่แล็ปท็อป",
+    "description": "มีระบบรักษาความปลอดภัยด้วยกล้อง CCTV ตลอด 24 ชั่วโมง",
     "category": "Security"
   },
   {
-    "title": "Secured Digital Key Access",
+    "title": "ที่จอดรถส่วนตัว",
     "icon": "chart-pie",
-    "description": "ระบบคีย์การ์ดหรือรหัสดิจิทัลที่ปลอดภัยสำหรับการเข้าถึงห้องพัก",
+    "description": "มีพื้นที่จอดรถกว้างขวาง สะดวก ปลอดภัย",
     "category": "Security"
+  },
+  {
+    "title": "พนักงานดูแลตลอดเวลา",
+    "icon": "chart-pie",
+    "description": "มีเจ้าหน้าที่ประจำโฮมสเตย์ พร้อมให้ความช่วยเหลือตลอดเวลา",
+    "category": "Security"
+  },
+  {
+    "title": "บรรยากาศธรรมชาติ",
+    "icon": "chart-pie",
+    "description": "โฮมสเตย์ตั้งอยู่กลางหุบเขา ท่ามกลางอากาศบริสุทธิ์ของดอยอ่างขาง",
+    "category": "Experience"
+  },
+  {
+    "title": "ใกล้แหล่งท่องเที่ยว",
+    "icon": "chart-pie",
+    "description": "เดินทางสะดวกไปยังสถานีเกษตรหลวงอ่างขาง จุดชมวิวซุยถัง และหมู่บ้านชาวเขาใกล้เคียง",
+    "category": "Experience"
+  },
+  {
+    "title": "เรียนรู้วิถีชีวิตยูนนาน",
+    "icon": "chart-pie",
+    "description": "ร่วมสัมผัสวิถีชีวิตของชาวจีนยูนนานในชุมชนบ้านผาแดง ที่อบอุ่นและเป็นกันเอง",
+    "category": "Experience"
   }
 ]

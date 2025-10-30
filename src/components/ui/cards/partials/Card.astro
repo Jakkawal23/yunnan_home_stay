@@ -10,13 +10,14 @@
 type Props = {
 	link?: string
 	classes?: string
+	target?: '_self' | '_blank'
 }
-const { link, classes } = Astro.props
+const { link, classes, target = '_self' } = Astro.props
 ---
 
 {
 	link ? (
-		<a href={link} class:list={['card', { [`${classes}`]: classes }]}>
+		<a href={link} target={target} class:list={['card', { [`${classes}`]: classes }]}>
 			<slot />
 		</a>
 	) : (

@@ -5,17 +5,15 @@ import Layout from '../layouts/Layout.astro'
 // - UI
 import Hero from '../components/blocks/hero/PageHeader.astro'
 import FAQ from '../components/blocks/FAQ/FaqSticky.astro'
-import TextImage from '../components/blocks/basic/TextImage.astro'
 import CTA from '../components/blocks/CTA/BasicLight.astro'
 
 // Data
 import faqData from '../data/json-files/faqData.json'
 // - FAQ Categories
-const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
-const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
+const faqBooking = faqData.filter((faq) => faq.category === 'booking')
+const faqFacilities = faqData.filter((faq) => faq.category === 'facilities')
+const faqTravel = faqData.filter((faq) => faq.category === 'travel')
 
-// Content
-import faqImage1 from '../assets/faq/faq-01.png'
 // - SEO
 const SEO = {
 	title: 'Foxi | Get Your Questions Answered with a Smile',
@@ -24,31 +22,29 @@ const SEO = {
 }
 // - Page Header
 const header = {
-	title: 'Get Answers to Your <strong>Foxi</strong> Questions.',
-	text: 'Find answers to common questions about Foxi '
+  title: 'คำถามที่พบบ่อยเกี่ยวกับ <strong>ยูนนานโฮมสเตย์ ดอยอ่างขาง</strong>',
+  text: 'รวมคำถามยอดนิยมเพื่อช่วยให้คุณวางแผนการพักผ่อนได้สะดวกยิ่งขึ้น'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<FAQ
-		title="Understanding Our Pricing Plans"
-		text="Get all the details on Foxi’s pricing plans. Learn about the costs, discounts, and subscription options to find the best plan that fits your needs and budget."
-		data={faqPricing}
+		title="การจองและข้อมูลราคา"
+		text="รวมคำถามยอดนิยมเกี่ยวกับการจองห้องพักยูนนานโฮมสเตย์ เช่น การมัดจำ การยกเลิก และรายละเอียดแพ็กเกจห้องพัก เพื่อให้คุณวางแผนการเข้าพักได้อย่างมั่นใจ"
+		data={faqBooking}
 	/>
-	<TextImage
-		title="Why Foxi’s Pricing Plans Offer Great Value"
-		text="At Foxi, we believe in providing exceptional value at every price point. Our pricing plans are designed to cater to a variety of needs, from individuals and small teams to large enterprises. Each plan includes access to our powerful features, seamless integrations, and top-notch customer support. "
-		image={faqImage1}
-		mobileImage={faqImage1}
-		imagePosition="left"
-		offsetImage
-		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
-	/>
+
 	<FAQ
-		title="Integrations Made Easy"
-		text="Discover how Foxi seamlessly integrates with your favorite tools and platforms. From Google Calendar to Slack, find out how to connect and enhance your productivity with powerful integrations."
-		data={faqIntegrations}
+		title="สิ่งอำนวยความสะดวกและบริการภายในที่พัก"
+		text="ค้นหาข้อมูลเกี่ยวกับสิ่งอำนวยความสะดวกในห้องพัก เช่น Wi-Fi ฟรี ห้องน้ำส่วนตัว อาหารเช้า และบริการอื่น ๆ ที่เราพร้อมมอบให้เพื่อความสบายของคุณ"
+		data={faqFacilities}
+	/>
+
+	<FAQ
+		title="การเดินทางและสถานที่ท่องเที่ยวใกล้ยูนนานโฮมสเตย์"
+		text="แนะนำเส้นทางการเดินทางขึ้นดอยอ่างขาง ระยะทางจากแหล่งท่องเที่ยวสำคัญ และคำแนะนำช่วงเวลาที่เหมาะสมในการท่องเที่ยว เพื่อให้ทริปของคุณสมบูรณ์แบบที่สุด"
+		data={faqTravel}
 	/>
 	<CTA />
 </Layout>

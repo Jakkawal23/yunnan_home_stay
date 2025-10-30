@@ -21,12 +21,15 @@ const { classes } = Astro.props
 ---
 
 <Section id="requests" classes={classes}>
+
 	<Row>
 		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-			<h2 class="text-balance">ติดต่อจองห้องพักกับ <strong>ยูนนานโฮมสเตย์</strong></h2>
+			<h2 class="text-balance">
+				ช่องทางติดต่อและจองห้องพัก <strong>ยูนนานโฮมสเตย์ ดอยอ่างขาง</strong>
+			</h2>
 			<p class="pb-0 text-lg">
-				คุณสามารจองห้องพักกับยูนนานโฮมสเตย์ได้หลากหลายช่องทาง ไม่ว่าจะเป็นการโทรจองโดยตรง การจองผ่านทางออนไลน์ 
-				การจองผ่านโซเชียลมีเดียต่างๆ หรือการเข้าใช้บริการที่ยูนนานโฮมสเตย์โดยตรง 
+				ยูนนานโฮมสเตย์เปิดให้คุณจองห้องพักได้หลายช่องทางตามความสะดวก
+				เรายินดีต้อนรับและพร้อมให้บริการทุกวัน
 			</p>
 		</Col>
 	</Row>
@@ -34,37 +37,40 @@ const { classes } = Astro.props
 		<Col span="3">
 			<Card
 				title="โทรจองโดยตรง"
-				subtitle="คุณสามารโทรจองได้โดยตรงผ่านเบอร์มือถือ 0806242150 / 0910700484 0806242150 / 0910700484" 
-				icon="rocket"
+				subtitle="ติดต่อสอบถามหรือจองห้องพักได้ทันที โทร 080-624-2150 หรือ 091-070-0484"
+				icon="bolt"
 				classes="text-center dark:!bg-neutral-800/50"
-				link="/contact"
+				link="tel:0806242150"
 			/>
 		</Col>
 		<Col span="3">
 			<Card
-				title="จองผ่าน Line"
-				subtitle="จองผ่านไลน์โดยเพิ่มเพื่อนไลน์ที่ @xxxxx จองผ่านไลน์โดยเพิ่มเพื่อนไลน์ที่ @xxxxx จองผ่านไลน์โดยเพิ่มเพื่อนไลน์ที่ @xxxxx"
-				icon="document-text"
+				title="จองผ่าน LINE"
+				subtitle="แชทสอบถามรายละเอียดห้องพัก หรือจองโดยตรงผ่าน LINE เพิ่มเพื่อนได้ที่ @yunnanhomestay"
+				icon="bolt"
 				classes="text-center dark:!bg-neutral-800/50"
-				link="/contact"
+				link="https://line.me/R/ti/p/@yunnanhomestay"
+				target="_blank"
 			/>
 		</Col>
 		<Col span="3">
 			<Card
 				title="จองผ่าน Facebook"
-				subtitle="จองผ่าน Facebook จองผ่าน Facebook จองผ่าน Facebook จองผ่าน Facebook จองผ่าน Facebook"
+				subtitle="ติดตามข่าวสาร โปรโมชั่น และสอบถามการจองผ่านเพจ Facebook ยูนนานโฮมสเตย์ ดอยอ่างขาง"
 				icon="bolt"
 				classes="text-center dark:!bg-neutral-800/50"
-				link="/contact"
+				link="https://www.facebook.com/yunnanhomestay"
+				target="_blank"
 			/>
 		</Col>
 		<Col span="3" classes="flex flex-col gap-6">
 			<Card
-				title="เข้าใช้บริการโดยตรง"
-				subtitle="เข้าใช้บริการโดยตรง เข้าใช้บริการโดยตรง เข้าใช้บริการโดยตรง เข้าใช้บริการโดยตรง เข้าใช้บริการโดยตรง"
-				icon="chat-bubble-left-ellipsis"
+				title="เข้ามาจองที่โฮมสเตย์โดยตรง"
+				subtitle="ยินดีต้อนรับทุกท่านที่ ยูนนานโฮมสเตย์ บ้านผาแดง ดอยอ่างขาง จ.เชียงใหม่ สามารถเดินทางมาเยี่ยมชมและจองห้องพักได้เลยที่หน้าที่พัก"
+				icon="bolt"
 				classes="text-center dark:!bg-neutral-800/50"
-				link="/contact"
+				link="https://maps.app.goo.gl/yunnanhomestay"
+				target="_blank"
 			/>
 		</Col>
 	</Row>

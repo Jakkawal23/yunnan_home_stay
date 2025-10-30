@@ -2,19 +2,19 @@
 	{
 		"header": {
 			"title": "เสริมเตียง",
-			"subtitle": "บริการเสริมเตียงได้ห้องล่ะ 1 เตียง",
+			"subtitle": "เพิ่มเตียงสำหรับพักเพิ่มเติม 1 ท่าน",
 			"currency": "฿",
 			"price": "100",
 			"priceLabel": "คืน",
 			"priceMontly": "xxx",
-			"priceLabelMontly": "คืน",
+			"priceLabelMontly": "ต่อคืน",
 			"buttonName": "จองห้องพัก",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
 				{ "listItem": "เตียงขนาด 3.5 ฟุต จำนวน 1 เตียง" },
-				{ "listItem": "อาหารเช้า สำหรับ 1 ท่าน" }
+				{ "listItem": "อาหารเช้า 1 ท่าน" }
 			]
 		},
 		"footer": {
@@ -26,21 +26,21 @@
 	{
 		"header": {
 			"title": "เตียงเดี่ยว",
-			"subtitle": "เตียงเดี่ยวสำหรับพักไม่เกิน 2 ท่าน",
+			"subtitle": "ห้องพักสำหรับ 1 - 2 ท่าน",
 			"currency": "฿",
 			"price": "600",
 			"priceLabel": "คืน",
 			"priceMontly": "xxx",
-			"priceLabelMontly": "คืน",
+			"priceLabelMontly": "ต่อคืน",
 			"buttonName": "จองห้องพัก",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
 				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 1 เตียง" },
-				{ "listItem": "อาหารเช้า สำหรับ 2 ท่าน" },
-				{ "listItem": "น้ำอุ่น" },
-				{ "listItem": "ห้องน้ำในตัว" }
+				{ "listItem": "อาหารเช้า 2 ท่าน" },
+				{ "listItem": "ห้องน้ำส่วนตัวในห้อง" },
+				{ "listItem": "เครื่องทำน้ำอุ่น" }
 			]
 		},
 		"footer": {
@@ -52,21 +52,21 @@
 	{
 		"header": {
 			"title": "เตียงคู่",
-			"subtitle": "เตียงคู่สำหรับพักไม่เกิน 4 ท่าน",
+			"subtitle": "ห้องพักสำหรับ 3 - 4 ท่าน",
 			"currency": "฿",
 			"price": "1,000",
 			"priceLabel": "คืน",
-			"priceMontly": "x,xxx",
+			"priceMontly": "xxx",
 			"priceLabelMontly": "คืน",
 			"buttonName": "จองห้องพัก",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 2 เตียง" },
-				{ "listItem": "อาหารเช้า สำหรับ 4 ท่าน" },
-				{ "listItem": "น้ำอุ่น" },
-				{ "listItem": "ห้องน้ำในตัว" }
+				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 1 เตียง" },
+				{ "listItem": "อาหารเช้า 2 ท่าน" },
+				{ "listItem": "ห้องน้ำส่วนตัวในห้อง" },
+				{ "listItem": "เครื่องทำน้ำอุ่น" }
 			]
 		},
 		"footer": {

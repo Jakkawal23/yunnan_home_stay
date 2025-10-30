@@ -42,7 +42,7 @@ export const navigationBarData: NavData = {
 		{ name: 'ราคา', link: '/pricing' },
 		{ name: 'บริการ', link: '/features' },
 		{
-			name: 'แหล่งข้อมูล',
+			name: 'ข้อมูลเพิ่มเติม',
 			link: '#',
 			submenu: [
 				{ name: 'บทความ', link: '/blog' },
