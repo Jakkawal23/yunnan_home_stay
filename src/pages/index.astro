@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro'
 import Hero from '../components/blocks/hero/HomeCTA.astro'
 import Blogs from '../components/blocks/blog/BlogCards.astro'
 import HighlightBlocks from '../components/blocks/highlights/HightlightRows.astro'
-import ContactCards from '../components/blocks/contact/ContactCards.astro'
+import FeatureHightlightCards from '../components/blocks/highlights/FeatureHightlightCards.astro'
 import CTA from '../components/blocks/CTA/BasicLight.astro'
 
 // - SEO
@@ -20,7 +20,7 @@ const SEO = {
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero />
 	<Blogs />
-	<ContactCards classes="dark:bg-neutral-950/80" />
+	<FeatureHightlightCards classes="dark:bg-neutral-950/80" />
 	<HighlightBlocks />
 	<CTA />
 </Layout>

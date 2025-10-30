@@ -100,13 +100,16 @@ const { type, header, body, footer } = data
 				</h4>
 			</div>
 
-			<Button
+			<!-- <Button
 				size="lg"
 				style={type === 'featured' ? 'secondary' : 'primary'}
 				elevated
 				type="link"
 				link={header.buttonLink}
 			>
+				{header.buttonName}
+			</Button> -->
+			<Button size="lg" style={type === 'featured' ? 'secondary' : 'primary'} modal="multi-contact">
 				{header.buttonName}
 			</Button>
 		</Header>

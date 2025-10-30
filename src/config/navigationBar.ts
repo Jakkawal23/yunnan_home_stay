@@ -38,20 +38,20 @@ export const navigationBarData: NavData = {
 		text: 'Yunnan Home Stay'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
+		{ name: 'หน้าแรก', link: '/' },
+		{ name: 'ราคา', link: '/pricing' },
+		{ name: 'บริการ', link: '/features' },
 		{
-			name: 'Resources',
+			name: 'แหล่งข้อมูล',
 			link: '#',
 			submenu: [
-				{ name: 'Blog', link: '/blog' },
+				{ name: 'บทความ', link: '/blog' },
 				// { name: 'Changelog', link: '/changelog' },
-				{ name: 'FAQ', link: '/faq' },
+				{ name: 'คำถามที่พบบ่อย', link: '/faq' },
 				// { name: 'Terms', link: '/terms' }
 			]
 		},
-		{ name: 'Contact', link: '/contact' }
+		{ name: 'ต่อต่อ', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'ติดต่อ/จองห้องพัก', link: '/', style: 'primary', size: 'lg' }]
 }

@@ -37,75 +37,79 @@ export const footerNavigationData: FooterData = {
 	footerAbout: {
 		title: 'Foxi.',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			'ยูนนานโฮมสเตย์ ห้องพักดอยอ่างขาง ตั้งอยู่ใจกลางชุมชนบ้านผาแดง เส้นทางดอยอ่างขาง ใกล้แหล่งท่องเที่ยวสำคัญต่างๆ เรียนรู้วิธีชุมชนจีนยูนนาน ทีมีประวัติศาสตร์มากกว่า 50 ปี',
 		logo: {
-			src: '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			src: '/logo_title.png',
+			alt: 'Yunnan Home Stay',
+			text: 'Yunnan Home Stay'
 		}
 	},
 	footerColumns: [
 		{
-			category: 'Product',
+			category: 'เกี่ยวกับโฮมสเตย์',
 			subCategories: [
 				{
-					subCategory: 'Features',
-					subCategoryLink: '/features'
-				},
-				{
-					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
-				},
-				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
-				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
-				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
-				}
-			]
-		},
-		{
-			category: 'About us',
-			subCategories: [
-				{
-					subCategory: 'About us',
+					subCategory: 'หน้าแรก',
 					subCategoryLink: '/'
 				},
 				{
-					subCategory: 'News',
+					subCategory: 'ราคา',
+					subCategoryLink: '/pricing'
+				},
+				{
+					subCategory: 'บริการ',
+					subCategoryLink: '/features'
+				},
+				{
+					subCategory: 'คำถามที่พบบ่อย',
+					subCategoryLink: '/faq'
+				},
+			]
+		},
+		{
+			category: 'บทความ',
+			subCategories: [
+				{
+					subCategory: 'ยูนนานโฮมสเตย์',
 					subCategoryLink: '/blog'
 				},
 				{
-					subCategory: 'Careers',
+					subCategory: 'หมู่บ้านผาแดง',
+					subCategoryLink: '/blog'
+				},
+				{
+					subCategory: 'สถานที่ท่องเที่ยวใกล้เคียง',
+					subCategoryLink: '/blog'
+				},
+				{
+					subCategory: 'เดินทางไปโฮมสเตย์ยังไง',
 					subCategoryLink: '/blog'
 				}
 			]
 		},
 		{
-			category: 'Get in touch',
+			category: 'ติดต่อจองห้องพัก',
 			subCategories: [
 				{
-					subCategory: 'Contact',
+					subCategory: 'เบอร์โทร : 0624266052 (เจ็หอม)',
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Support',
+					subCategory: 'เบอร์โทร : 0624266052 (วาฬ)',
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Join us',
+					subCategory: 'Line : @xxxxxx',
+					subCategoryLink: '/contact'
+				},
+				{
+					subCategory: 'Facebook : ยูนนานโฮมสเตย์',
 					subCategoryLink: '/contact'
 				}
 			]
 		}
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© Yunnan Home Stay 2025.'
 	}
 }
