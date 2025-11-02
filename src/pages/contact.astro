@@ -3,6 +3,7 @@
 // - Layout
 import Layout from '../layouts/Layout.astro'
 // - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
 import ContactCards from '../components/blocks/contact/ContactCards.astro'
 import CTA from '../components/blocks/CTA/BasicLight.astro'
 
@@ -13,9 +14,17 @@ const SEO = {
 	description:
 		'Have questions or need assistance? Contact Foxi today for support, inquiries, or feedback. Our team is here to help you make the most of your Foxi experience.'
 }
+
+// - Page Header
+const header = {
+  title: 'ช่องทางติดต่อและจองห้องพัก <br><strong>ยูนนานโฮมสเตย์ ดอยอ่างขาง</strong>',
+  text: 'ยูนนานโฮมสเตย์เปิดให้คุณจองห้องพักได้หลายช่องทางตามความสะดวก เรายินดีต้อนรับและพร้อมให้บริการทุกวัน'
+}
 ---
 
+
 <Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
 	<ContactCards classes="dark:bg-neutral-950/80" />
 	<CTA />
 </Layout>
