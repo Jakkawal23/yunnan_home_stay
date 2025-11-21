@@ -27,13 +27,14 @@ type Props = {
 	titleSize?: 'sm' | 'base' | 'lg' | 'xl'
 	image?: any
 	icon?: string
+	iconColor?: string
 	link?: string
 	type?: 'image-top' | 'image-bottom'
 	classes?: string
 	target?: '_self' | '_blank'
 }
 
-const { title = '', subtitle, titleSize = 'lg', image, icon, link, type, classes, target = '_self' } = Astro.props
+const { title = '', subtitle, titleSize = 'lg', image, icon, iconColor, link, type, classes, target = '_self' } = Astro.props
 ---
 
 <Card classes={classes} link={link} target={target}>
@@ -48,7 +49,7 @@ const { title = '', subtitle, titleSize = 'lg', image, icon, link, type, classes
 	)}
 	{icon && (
 		<div class="px-6 pt-6">
-			<Icon name={icon} class="card__icon" />
+			<Icon name={icon} class={`card__icon ${iconColor}`}/>
 		</div>
 	)}
 	<CardBody>

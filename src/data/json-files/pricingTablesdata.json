@@ -1,20 +1,22 @@
 [
 	{
 		"header": {
-			"title": "เสริมเตียง",
-			"subtitle": "เพิ่มเตียงสำหรับพักเพิ่มเติม 1 ท่าน",
+			"title": "ห้องเสริม (เตียงคู่)",
+			"subtitle": "ห้องพักสำหรับ 3 - 4 ท่าน",
 			"currency": "฿",
-			"price": "100",
+			"price": "800",
 			"priceLabel": "คืน",
 			"priceMontly": "xxx",
-			"priceLabelMontly": "ต่อคืน",
+			"priceLabelMontly": "คืน",
 			"buttonName": "จองห้องพัก",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "เตียงขนาด 3.5 ฟุต จำนวน 1 เตียง" },
-				{ "listItem": "อาหารเช้า 1 ท่าน" }
+				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 2 เตียง" },
+				{ "listItem": "อาหารเช้า 4 ท่าน" },
+				{ "listItem": "ห้องน้ำส่วนตัวในห้อง" },
+				{ "listItem": "เครื่องทำน้ำอุ่น" }
 			]
 		},
 		"footer": {
@@ -31,7 +33,7 @@
 			"price": "600",
 			"priceLabel": "คืน",
 			"priceMontly": "xxx",
-			"priceLabelMontly": "ต่อคืน",
+			"priceLabelMontly": "คืน",
 			"buttonName": "จองห้องพัก",
 			"buttonLink": "/"
 		},
@@ -63,8 +65,8 @@
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 1 เตียง" },
-				{ "listItem": "อาหารเช้า 2 ท่าน" },
+				{ "listItem": "เตียงขนาด 5 ฟุต จำนวน 2 เตียง" },
+				{ "listItem": "อาหารเช้า 4 ท่าน" },
 				{ "listItem": "ห้องน้ำส่วนตัวในห้อง" },
 				{ "listItem": "เครื่องทำน้ำอุ่น" }
 			]

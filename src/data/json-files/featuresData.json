@@ -1,91 +1,91 @@
 [
   {
     "title": "ห้องน้ำส่วนตัว",
-    "icon": "chart-pie",
+    "icon": "toilet-pictogram",
     "description": "ทุกห้องพักมีห้องน้ำส่วนตัว เพื่อความเป็นส่วนตัวและสะดวกสบาย",
     "category": "Comfort"
   },
   {
     "title": "น้ำอุ่น",
-    "icon": "chart-pie",
+    "icon": "shower",
     "description": "อาบน้ำอุ่นได้ตลอดทั้งวัน เหมาะกับอากาศเย็นของดอยอ่างขาง",
     "category": "Comfort"
   },
   {
     "title": "Wi-Fi ฟรี",
-    "icon": "chart-pie",
+    "icon": "wif",
     "description": "เชื่อมต่ออินเทอร์เน็ตความเร็วสูงฟรีทั่วบริเวณโฮมสเตย์",
     "category": "Comfort"
   },
   {
-    "title": "ทีวีจอแบน",
-    "icon": "chart-pie",
-    "description": "ทีวีพร้อมช่องเคเบิลและบริการสตรีมมิ่ง เช่น YouTube และ Netflix",
+    "title": "ทีวี",
+    "icon": "tv",
+    "description": "ทีวีพร้อมช่องเคเบิลและช่องท้องถิ่น ให้คุณผ่อนคลายหลังวันท่องเที่ยว",
     "category": "Comfort"
   },
   {
     "title": "บริการทำความสะอาดรายวัน",
-    "icon": "chart-pie",
-    "description": "ดูแลความสะอาดห้องพักทุกวัน เพื่อความสบายใจของผู้เข้าพัก",
+    "icon": "vacuum-cleaner",
+    "description": "ดูแลความสะอาดห้องพักทุกวัน เพื่อความสะอาดของผู้เข้าพัก",
     "category": "Comfort"
   },
   {
-    "title": "เสริมเตียงได้",
-    "icon": "chart-pie",
-    "description": "รองรับการพักแบบครอบครัว ด้วยบริการเตียงเสริมในบางห้อง",
+    "title": "บริการเสริมเตียง",
+    "icon": "bed",
+    "description": "รองรับการพักแบบครอบครัว ด้วยบริการเสริมเตียง",
     "category": "Comfort"
   },
   {
     "title": "อาหารเช้า",
-    "icon": "chart-pie",
+    "icon": "food-dish",
     "description": "บริการอาหารเช้า สดใหม่ทุกวัน",
     "category": "Food"
   },
   {
     "title": "กาแฟ & ชาร้อน",
-    "icon": "chart-pie",
-    "description": "บริการกาแฟดริปและชาร้อนฟรีสำหรับผู้เข้าพักทุกเช้า",
+    "icon": "breakfast-hot-drink-coffee",
+    "description": "บริการกาแฟและชาร้อนฟรีสำหรับผู้เข้าพักทุกเช้า",
     "category": "Food"
   },
   {
-    "title": "หมูกระทะ & จิ้มจุ่ม",
-    "icon": "chart-pie",
+    "title": "หมูกระทะ & อาหารตามสั่ง",
+    "icon": "meal-menu-2",
     "description": "มีบริการหมูกระทะและอาหารเย็นจากร้านค้าชุมชน",
     "category": "Food"
   },
   {
     "title": "กล้องวงจรปิด 24 ชั่วโมง",
-    "icon": "chart-pie",
+    "icon": "cctv",
     "description": "มีระบบรักษาความปลอดภัยด้วยกล้อง CCTV ตลอด 24 ชั่วโมง",
     "category": "Security"
   },
   {
     "title": "ที่จอดรถส่วนตัว",
-    "icon": "chart-pie",
+    "icon": "parking",
     "description": "มีพื้นที่จอดรถกว้างขวาง สะดวก ปลอดภัย",
     "category": "Security"
   },
   {
     "title": "พนักงานดูแลตลอดเวลา",
-    "icon": "chart-pie",
+    "icon": "customer-service",
     "description": "มีเจ้าหน้าที่ประจำโฮมสเตย์ พร้อมให้ความช่วยเหลือตลอดเวลา",
     "category": "Security"
   },
   {
     "title": "บรรยากาศธรรมชาติ",
-    "icon": "chart-pie",
+    "icon": "mountain-torrents-need-flood-control",
     "description": "โฮมสเตย์ตั้งอยู่กลางหุบเขา ท่ามกลางอากาศบริสุทธิ์ของดอยอ่างขาง",
     "category": "Experience"
   },
   {
     "title": "ใกล้แหล่งท่องเที่ยว",
-    "icon": "chart-pie",
+    "icon": "location-pin",
     "description": "เดินทางสะดวกไปยังสถานีเกษตรหลวงอ่างขาง จุดชมวิวซุยถัง และหมู่บ้านชาวเขาใกล้เคียง",
     "category": "Experience"
   },
   {
     "title": "เรียนรู้วิถีชีวิตยูนนาน",
-    "icon": "chart-pie",
+    "icon": "problem",
     "description": "ร่วมสัมผัสวิถีชีวิตของชาวจีนยูนนานในชุมชนบ้านผาแดง ที่อบอุ่นและเป็นกันเอง",
     "category": "Experience"
   }

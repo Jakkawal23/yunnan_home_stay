@@ -95,15 +95,15 @@ export const footerNavigationData: FooterData = {
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'เบอร์โทร : 0624266052 (วาฬ)',
+					subCategory: 'เบอร์โทร : 0910700484 (วาฬ)',
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Line : @xxxxxx',
+					subCategory: 'Line : @885liwmd',
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Facebook : ยูนนานโฮมสเตย์',
+					subCategory: 'Facebook : ยูนนาน โฮมสเตย์ ห้องพักใกล้อ่างขาง ',
 					subCategoryLink: '/contact'
 				}
 			]
