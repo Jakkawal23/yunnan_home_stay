@@ -10,23 +10,28 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
 	{
-		name: 'facebook',
-		link: '/',
-		icon: 'fb-icon'
-	},
-	{
 		name: 'line',
-		link: '/',
+		link: 'https://lin.ee/H0Ni6jx',
 		icon: 'line'
 	},
 	{
-		name: 'twitter',
-		link: '/',
-		icon: 'twitter-icon'
+		name: 'facebook',
+		link: 'https://www.facebook.com/profile.php?id=100049282224823',
+		icon: 'fb-icon'
 	},
 	{
-		name: 'discord',
-		link: '/',
-		icon: 'discord-icon'
-	}
+		name: 'messager',
+		link: 'https://www.facebook.com/messages/t/1522803794707836',
+		icon: 'fb-messager'
+	},
+	{
+		name: 'instagram',
+		link: 'https://www.instagram.com/yunnan_homestay/',
+		icon: 'instagram'
+	},
+	{
+		name: 'youtube',
+		link: 'https://www.youtube.com/@YunnanHomeStay',
+		icon: 'youtube'
+	},
 ]

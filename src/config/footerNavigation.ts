@@ -99,7 +99,7 @@ export const footerNavigationData: FooterData = {
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Line : @885liwmd',
+					subCategory: 'Line : @579lmqrb',
 					subCategoryLink: '/contact'
 				},
 				{
@@ -110,6 +110,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© Yunnan Home Stay 2025.'
+		copywriteText: '© Yunnan Home Stay 2025. 21/12/2025 16:13'
 	}
 }
