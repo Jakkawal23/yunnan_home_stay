@@ -4,7 +4,7 @@ pubDate: 2025-11-01T05:00:00Z
 description: 'สำรวจประวัติศาสตร์ชุมชนถ้ำง๊อบบนดอยอ่างขาง ผ่านโรงเตี๊ยมถ้ำง๊อบ Tham Ngob Inn แหล่งพักและพบปะชาวยูนนาน '
 author: 'Yunnan Homestay'
 image: '/blog/20251101_08/01.png'
-tags: ['TouristAttractions', 'ThamNgob', 'History']
+tags: ['TouristAttractions', 'ThamNgob']
 ---
 
 ![โรงเตี๊ยมถ้ำง๊อบ บ้านไม้ยูนนานโบราณท่ามกลางวิวดอยอ่างขาง](/blog/20251101_08/01.png)

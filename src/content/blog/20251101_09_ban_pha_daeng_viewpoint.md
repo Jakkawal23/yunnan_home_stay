@@ -4,7 +4,7 @@ pubDate: 2025-11-01T05:00:00Z
 description: 'จุดชมวิวบ้านผาแดง Ban Pha Daeng Viewpoint ทะเลหมอกเนินเขายูนนานที่หนองบัว เชียงใหม่ พร้อมประวัติชุมชน'
 author: 'Yunnan Homestay'
 image: '/blog/20251101_09/01.png'
-tags: ['TouristAttractions', 'PhaDaeng', 'History']
+tags: ['TouristAttractions', 'PhaDaeng']
 ---
 
 ![จุดชมวิวบ้านผาแดง ทะเลหมอกปกคลุมเนินเขาชุมชนยูนนานยามเช้าที่หนองบัว เชียงใหม่](/blog/20251101_09/01.png)
