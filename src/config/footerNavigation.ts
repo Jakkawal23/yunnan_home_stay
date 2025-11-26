@@ -110,6 +110,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© Yunnan Home Stay 2025. 21/12/2025 16:13'
+		copywriteText: '© Yunnan Home Stay 2025. 26/12/2025 13:48'
 	}
 }

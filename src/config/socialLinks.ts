@@ -30,6 +30,11 @@ export const socialLinks: SocialLink[] = [
 		icon: 'instagram'
 	},
 	{
+		name: 'tiktok',
+		link: 'https://www.tiktok.com/@yunnan.homestay',
+		icon: 'tiktok'
+	},
+	{
 		name: 'youtube',
 		link: 'https://www.youtube.com/@YunnanHomeStay',
 		icon: 'youtube'
