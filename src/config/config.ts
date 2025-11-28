@@ -21,12 +21,11 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'ที่พักดอยอ่างขาง ยูนนานโฮมสเตย์ หมู่บ้านผาแดง',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
-	ogImage: '/og.jpg',
+		'หากคุณกำลังมองหาที่พักบนดอยอ่างขาง ยูนนานโฮมสเตย์ ตั้งอยู่ใจกลางชุมชนจีนยูนนาน หมู่บ้านผาแดง สะดวกในการเดินทาง ห้องพักสะอาด ปลอดภัย',
+	ogImage: '/og.png',
 	logo: {
-		// src: '/logo.svg',
 		src: '/logo.png',
 		alt: 'Yunnan Home Stay Logo'
 	},
